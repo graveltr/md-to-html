@@ -1,0 +1,31 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Style for list items under 'Education' */
+#education + ul li:before {
+  content: '🎓'; /* Example: Graduation cap emoji as bullet */
+  color: green;
+  margin-right: 10px;
+}
+
+/* Style for list items under 'Publications' */
+#publications + ul li:before {
+  content: '📄'; /* Example: Page emoji as bullet */
+  color: blue;
+  margin-right: 10px;
+}
+
+/* Common styles for custom bullets */
+#education + ul li:before,
+#publications + ul li:before {
+  display: inline-block;
+  width: 1.5em; /* Space for bullet */
+}
+
+/* Add padding to list items to make room for bullets */
+ul li {
+  padding-left: 1.5em;
+  position: relative;
+}
