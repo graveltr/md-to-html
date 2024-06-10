@@ -1,4 +1,9 @@
-Example usage of pandoc with custom filters to convert markdown to html with styles.
+Example usage of pandoc with custom filters to convert markdown to html with
+styles.
+
+In this basic example, the markdown headers are given html ids, which can then
+be styled inside of `styles.css`. This serves as a starting point for more complicated
+styling of the resultant html when using pandoc.
 
 # Dependencies
 - pandoc
